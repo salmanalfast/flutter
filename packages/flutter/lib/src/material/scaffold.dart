@@ -1581,6 +1581,7 @@ class Scaffold extends StatefulWidget {
     this.appBar,
     this.body,
     this.floatingActionButton,
+    this.homeActionButton,
     this.floatingActionButtonLocation,
     this.floatingActionButtonAnimator,
     this.persistentFooterButtons,
@@ -1664,6 +1665,8 @@ class Scaffold extends StatefulWidget {
   /// [ListView] as the body of the scaffold. This is also a good choice for
   /// the case where your body is a scrollable list.
   final Widget? body;
+
+  final Widget? homeActionButton;
 
   /// A button displayed floating above [body], in the bottom right corner.
   ///
